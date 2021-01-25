@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="0dp">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:padding="5.0dip"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5.0dip"
+                android:gravity="center_vertical"
+                android:text="Bookmark Name"
+                android:id="@+id/bookmarkname"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:textSize="20.0sp"/>
+
+            <TextView
+                android:layout_below="@+id/bookmarkname"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="5.0dip"
+                android:gravity="center_vertical"
+                android:text="Category Name"
+                android:id="@+id/categoryname"
+                android:textColor="#ff000000"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/next"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/arrow"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

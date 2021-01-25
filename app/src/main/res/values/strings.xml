@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">eChicApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chicken">ChickenActivity</string>
+
+    <string name="title_activity_disease_information">DiseaseInformation</string>
+    <string name="title_activity_medicine_information">MedicineInformation</string>
+    <string name="title_activity_aid_information">AidInformation</string>
+    <string name="title_activity_nutrition_information">NutritionInformation</string>
+    <string name="title_activity_bookmark">BookmarkActivity</string>
+
+    <string name="disease_with_treatment">Disease with Treatment</string>
+    <string name="about_info">Chicken Based E-Learning Health Guide Application is A modern tool to access various information offline to help Chicken Owner for giving an information such as different types of disease with treatment, nutrition, first aid and medicine.</string>
+    <string name="developers">Develop by: \n Jj Pontilar Dela Cruz</string>
+</resources>

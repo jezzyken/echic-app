@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jezrelljolampong.echicapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="chicken.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.jezrelljolampong.echicapp" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChickenActivity"
+            android:label="@string/title_activity_chicken"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DiseaseActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MedicineActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NutritionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AidActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DiseaseInformation"
+            android:label="@string/title_activity_disease_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MedicineInformation"
+            android:label="@string/title_activity_medicine_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AidInformation"
+            android:label="@string/title_activity_aid_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NutritionInformation"
+            android:label="@string/title_activity_nutrition_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BookmarkActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".OfflineVideo"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".SampleActivity"
+            android:parentActivityName=".OfflineVideo"
+            android:screenOrientation="portrait"></activity>
+
+    </application>
+
+</manifest>

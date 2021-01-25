@@ -1,0 +1,78 @@
+@media only screen and (min-width: 320px)
+body {
+	font-size:14px;
+	color:#333333;	
+	font-family: "tahoma",Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 320px)
+* {
+  margin: 0 auto;
+}
+
+h3{
+}
+
+p{
+	text-align:justify ;
+	padding:5px;
+	line-height: 1.5;
+	
+ }
+ 
+ li{
+ 	text-align:justify ;
+ 	line-height: 1.5;
+ } 	
+
+
+.titleHeader{
+	font-weight:bold;
+	text-decoration: underline;
+	float:left;
+}
+#casualAgent{
+	float:left;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+span.agentName{
+	padding:5px;
+	font-style: italic;
+}
+
+#clFndContent
+{   
+	width:100%;
+    float:left;
+    text-align:justify ;
+}
+
+#findingsImg {
+  display: inline-block;  
+  margin: 5px;
+  padding: 5px;  
+  border: 10px solid white;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+#findingsImg img, #findingsImg span {
+  display: block;
+}
+
+#findingsImg span, #findingsImg figcaption {
+  text-align: center;
+  margin-top: 8px;
+  width:250px;
+}
+
+ #msellaneous{
+    width:100%;
+    float:left;
+    text-align:justify ;  
+ }
+ 
+#treatment{
+  float:left;
+}
